@@ -21,12 +21,23 @@
 
 ## 快速开始 (Quick Start)
 
-想要在本地运行这个项目？只需简单的三步：
+一、如果想要在本地运行这个项目
 
 1. **克隆仓库**
-```git clone https://github.com/minthere1811/minthere-portfolio.git```
+```
+git clone https://github.com/minthere1811/minthere-portfolio.git
+```
 2. **安装依赖**
 ```
 cd your-repo-name
 npm install
 ```
+3. **启动开发服务器**
+```
+npm run dev
+```
+
+## 预览图 (Screenshots)
+| 主页 | 绿享生活 |
+| :---: | :---: |
+| ![01](public/01.png) | ![02](public/02.png) |
