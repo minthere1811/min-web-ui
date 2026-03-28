@@ -7,10 +7,8 @@
 | :---: | :---: |
 | ![01](public/zh-N.png) | ![02](public/zh-L.png) |
 | 项目展示(暗) | 项目展示(亮) |
-| :---: | :---: |
 | ![03](public/zo-N.png) | ![04](public/zo-L.png) |
 | 页脚(暗) | 页脚(亮) |
-| :---: | :---: |
 | ![05](public/di-N.png) | ![06](public/di-L.png) |
 ---
 
