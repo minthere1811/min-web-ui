@@ -47,6 +47,4 @@ npm run dev
 
 ## 联络方式 (Contact)
 如果您对我的项目感兴趣，或有意见，欢迎通过以下方式联系，由于本人是学生，回复不仅是请谅解：
-  GitHub: @minthere1811
-  Email: s138159@outlook.com
-  WeChat：Minthere0714（备注Github）
+| GitHub: @minthere1811 | Email: s138159@outlook.com | WeChat：Minthere0714（备注Github）|
