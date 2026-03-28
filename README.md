@@ -1,6 +1,6 @@
-# Minthere Digital Architecture Portfolio
+# Min-web-ui
 
-> **在代码中寻找数学诗意的开发者。** > A futuristic, high-interaction portfolio built with React & Vite.
+> **一个基于React 18 / Vite构建的一个网站UI** > A futuristic, high-interaction portfolio built with React & Vite.
 
 ## 鸣谢 (Acknowledgements)
 本项目的顺利完成，离不开以下优秀开源项目与技术的驱动：
@@ -9,7 +9,7 @@
 <br>[Node.js](https://nodejs.org/) - 支撑整个前端开发环境的运行运行时。<br/>
 <br>[Nginx](https://nginx.org/) - 驱动生产环境的高性能 Web 服务器。<br/>
 <br>[宝塔面板](https://www.bt.cn/new/index.html) - 让运维变得极其简单的服务器管理面板。<br/>
-**排名不分先后**
+<br>**排名不分先后**<br/>
 
 ## 预览图 (Screenshots)
 | 主页(暗) | 主页(亮) |
