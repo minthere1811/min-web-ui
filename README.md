@@ -38,6 +38,6 @@ npm run dev
 ```
 
 ## 预览图 (Screenshots)
-| 主页 | 绿享生活 |
+| 主页(暗) | 主页(亮) |
 | :---: | :---: |
-| ![01](public/01.png) | ![02](public/02.png) |
+| ![01](public/zh-N.png) | ![02](public/zh-L.png) |
