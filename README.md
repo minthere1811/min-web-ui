@@ -25,3 +25,8 @@
 
 1. **克隆仓库**
 ```git clone https://github.com/minthere1811/minthere-portfolio.git```
+2. **安装依赖**
+```
+cd your-repo-name
+npm install
+```
