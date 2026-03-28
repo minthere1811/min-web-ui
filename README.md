@@ -1,0 +1,26 @@
+# Minthere Digital Architecture Portfolio
+
+> **在代码中寻找数学诗意的开发者。** > A futuristic, high-interaction portfolio built with React & Vite.
+
+---
+
+## 项目亮点 (Features)
+
+* **极致双色模式**：支持深色（Dark）与浅色（Light）模式的平滑切换，适配不同光线环境。
+* **动态交互体验**：自研基于 CSS 变量的鼠标追踪光晕效果，增强视觉沉浸感。
+* **核心项目展示**：
+* **📱 响应式架构**：完美适配从 4K 超宽屏到移动端的全设备访问。
+
+## 🛠️ 技术栈 (Tech Stack)
+
+| 类别 | 技术 |
+| :--- | :--- |
+| **框架** | React 18 / Vite |
+| **样式** | 原生 CSS (Custom Properties) / Glassmorphism |
+| **工具** | Git / Node.js / Pagoda Panel |
+
+## 快速开始 (Quick Start)
+
+想要在本地运行这个项目？只需简单的三步：
+
+1. **克隆仓库**

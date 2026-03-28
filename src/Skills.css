@@ -1,0 +1,52 @@
+.skills-section { padding: 100px 0 0; background: transparent; }
+.skills-container { display: flex; justify-content: space-between; padding: 0 8vw; gap: 50px; margin-bottom: 80px; }
+
+.section-tag { font-size: 11px; letter-spacing: 5px; color: var(--accent); display: block; margin-bottom: 15px; }
+.skills-text h2 { font-family: var(--font-hero); font-size: clamp(2.5rem, 4vw, 4rem); line-height: 1.1; font-weight: 900; }
+.skills-list { flex: 1; max-width: 600px; display: flex; flex-direction: column; gap: 30px; }
+.skill-item { 
+  background: transparent;
+  padding: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgba(128,128,128,0.05);
+}
+
+.skill-item:last-child {
+  border-bottom: none;
+}
+.skill-info { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.skill-title { display: flex; align-items: center; gap: 15px; }
+.skill-icon { font-size: 24px; color: var(--accent); }
+.skill-title h4 { font-size: 1.1rem; margin-bottom: 4px; font-weight: bold; }
+.skill-title p { font-size: 0.85rem; color: var(--text); opacity: 0.5; }
+.skill-percent-text { font-weight: bold; color: var(--accent); }
+
+.progress-bg { width: 100%; height: 4px; background: rgba(128,128,128,0.2); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0%; }
+
+.marquee-wrapper { 
+  display: flex; width: 100%; overflow: hidden; 
+  background: rgba(128,128,128,0.05); 
+  border-top: 1px solid rgba(128,128,128,0.1); 
+  border-bottom: 1px solid rgba(128,128,128,0.1); 
+  padding: 15px 0; 
+}
+.marquee-track { 
+  display: flex; flex-shrink: 0; align-items: center; min-width: 100%; 
+  animation: scrollMarquee 15s linear infinite; 
+}
+.marquee-track span { 
+  font-size: 1.5rem; font-family: var(--font-hero); padding: 0 40px; 
+  color: var(--text); white-space: nowrap; 
+}
+
+@keyframes scrollMarquee { 
+  0% { transform: translateX(0); } 
+  100% { transform: translateX(-100%); } 
+}
+
+@media (max-width: 900px) {
+  .skills-container { flex-direction: column; padding: 0 5vw; }
+  .skills-list { max-width: 100%; }
+  .marquee-track span { font-size: 1.2rem; padding: 0 25px; }
+}

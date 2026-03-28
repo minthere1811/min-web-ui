@@ -1,0 +1,30 @@
+.v3-projects { padding: 150px 8vw; display: flex; justify-content: space-between; position: relative; z-index: 10; }
+
+.v3-header { width: 30%; position: sticky; top: 150px; height: max-content; }
+.v3-header .label { font-size: 12px; letter-spacing: 3px; color: var(--text-muted); display: block; margin-bottom: 10px; }
+.v3-header h2 { font-family: var(--font-hero); font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; }
+
+.v3-list { width: 60%; display: flex; flex-direction: column; gap: 100px; }
+
+.v3-card {
+  width: 100%; height: 500px; background: rgba(128,128,128,0.05);
+  border: 1px solid rgba(128,128,128,0.2); border-radius: 8px;
+  position: relative; overflow: hidden; cursor: pointer;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.v3-card:hover { border-color: var(--accent); transform: scale(1.02); }
+
+.v3-content { position: absolute; bottom: 40px; left: 40px; z-index: 2; color: #fff; }
+.v3-id { 
+  font-family: var(--font-hero); font-size: 5.5rem; font-weight: 900; 
+  opacity: 0.15; position: absolute; top: -70px; left: -10px; line-height: 1; 
+}
+.v3-content h3 { font-family: var(--font-hero); font-size: 2rem; margin: 10px 0 5px; position: relative; z-index: 1; }
+.v3-tags { font-size: 0.8rem; letter-spacing: 3px; color: var(--accent); font-weight: bold; position: relative; z-index: 1; }
+
+@media (max-width: 900px) {
+  .v3-projects { flex-direction: column; padding: 100px 5vw; }
+  .v3-header { width: 100%; position: relative; top: 0; margin-bottom: 50px; }
+  .v3-list { width: 100%; gap: 50px; }
+  .v3-card { height: 350px; }
+}
