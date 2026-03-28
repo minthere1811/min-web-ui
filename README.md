@@ -2,6 +2,10 @@
 
 > **在代码中寻找数学诗意的开发者。** > A futuristic, high-interaction portfolio built with React & Vite.
 
+## 预览图 (Screenshots)
+| 主页(暗) | 主页(亮) |
+| :---: | :---: |
+| ![01](public/zh-N.png) | ![02](public/zh-L.png) |
 ---
 
 ## 项目亮点 (Features)
@@ -37,7 +41,4 @@ npm install
 npm run dev
 ```
 
-## 预览图 (Screenshots)
-| 主页(暗) | 主页(亮) |
-| :---: | :---: |
-| ![01](public/zh-N.png) | ![02](public/zh-L.png) |
+
