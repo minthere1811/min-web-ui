@@ -44,6 +44,29 @@ npm install
 ```
 npm run dev
 ```
+二、部署到服务器中
+
+1. **按照一线保存到本地**
+2. **本地生成优化的静态资源文件**
+```
+npm run build
+```
+执行后，项目根目录下会生成一个 dist 文件夹，这就是我们需要上传到服务器的核心文件。
+3. **通过 Nginx/宝塔面板部署**
+·上传文件：将本地生成的 dist 文件夹内的所有内容上传到服务器的目标目录
+·创建站点：在宝塔面板中新建站点，并将域名指向该目录。
+·**配置伪静态**必做：由于项目可能使用前端路由，为了防止刷新页面出现 404，请在 Nginx 配置文件中添加以下代码：
+```
+location / {
+  root   /www/wwwroot/your-portfolio; # 你的项目路径
+  index  index.html index.htm;
+  try_files $uri $uri/ /index.html; # 支持 React Router 模式
+}
+```
+
+## 常见问题排查 (Troubleshooting)
+1. **图片不显示** 请确保 public 文件夹下的图片（如 01.png 等）已正确上传至服务器根目录对应的位置。
+2. **HTTPS 配置** 建议通过宝塔面板一键申请 Let's Encrypt SSL 证书，以开启网站的 HTTPS 访问，提升安全性。
 
 ## 联络方式 (Contact)
 如果您对我的项目感兴趣，或有意见，欢迎通过以下方式联系，由于本人是学生，回复不仅是请谅解：
