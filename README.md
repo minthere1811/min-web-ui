@@ -24,4 +24,4 @@
 想要在本地运行这个项目？只需简单的三步：
 
 1. **克隆仓库**
-git clone https://github.com/minthere1811/minthere-portfolio.git
+```git clone https://github.com/minthere1811/minthere-portfolio.git
